@@ -12,6 +12,14 @@ draft = false
 ```
 {{< ref "">}}
 
+// 在浏览器控制台中执行以下代码
+var elements = document.querySelectorAll('p > font > font > font');
+
+elements.forEach(function(element) {        
+        var newline = document.createElement('br');
+        element.parentNode.insertBefore(newline, element);        
+        element.firstChild.nodeValue = '&zeroWidthSpace;' +element.firstChild.nodeValue;
+});
 
 ```
 
