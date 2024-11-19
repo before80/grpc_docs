@@ -1,0 +1,13 @@
++++
+title = "Languages"
+date = 2024-11-19T10:19:42+08:00
+weight = 10
+type = "docs"
+description = ""
+isCJKLanguage = true
+draft = false
++++
+
+> 原文：[https://grpc.io/docs/languages/](https://grpc.io/docs/languages/)
+>
+> 收录该文档的时间：`2024-11-19T10:19:42+08:00`

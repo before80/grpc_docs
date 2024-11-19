@@ -87,7 +87,9 @@ ordered = false
 [markup.highlight]
 # See a complete list of available styles at https://xyproto.github.io/splash/docs/all.html
 # style = "onedark"
-style = "manni"
+# style = "manni"
+#style = "igor"
+style = "doom-one2"
 linenos = true
 #noClasses = true
 #lineNumbersInTable = true
@@ -152,6 +154,8 @@ prism_syntax_highlighting = false
 [params.markmap]
 enable = true
 
+
+
 # 启用 tocbot来处理页面滚动定位toc项
 [params.jstoc]
 enable = true
@@ -178,10 +182,13 @@ pygmentsStyle = "tango"
 
 # User interface configuration
 [params.ui]
+# 2024.5.29
+showLightDarkModeMenu = true
 #  Set to true to disable breadcrumb navigation.
 breadcrumb_disable = false
 # Set to true to disable the About link in the site footer
-footer_about_disable = false
+#footer_about_disable = false
+footer_about_enable = true
 # Set to false if you don't want to display a logo (/assets/icons/logo.svg) in the top navbar
 navbar_logo = true
 # Set to true if you don't want the top navbar to be translucent when over a `block/cover`, like on the homepage.
@@ -201,7 +208,7 @@ sidebar_search_disable = false
 # If you want this feature, but occasionally need to remove the "Feedback" section from a single page,
 # add "hide_feedback: true" to the page's front matter.
 [params.ui.feedback]
-enable = true
+enable = false
 # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
 yes = 'Glad to hear it! Please <a href="https://github.com/before80/grpc_docs/issues/new">tell us how we can improve</a>.'
 no = 'Sorry to hear that. Please <a href="https://github.com/before80/grpc_docs/issues/new">tell us how we can improve</a>.'

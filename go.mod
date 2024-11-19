@@ -1,8 +1,8 @@
-module github.com/before80/pq_docs
+module github.com/before80/grpc_docs
 
-go 1.20
+go 1.22.3
 
 require (
-	github.com/google/docsy v0.7.0 // indirect
-	github.com/google/docsy/dependencies v0.7.0 // indirect
+	github.com/google/docsy v0.10.0 // indirect
+	github.com/google/docsy/dependencies v0.7.2 // indirect
 )
