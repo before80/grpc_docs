@@ -11,3 +11,15 @@ draft = false
 > 原文：[https://grpc.io/docs/platforms/android/kotlin/](https://grpc.io/docs/platforms/android/kotlin/)
 >
 > 收录该文档的时间：`2024-11-19T10:19:42+08:00`
+
+# Kotlin for Android
+
+
+
+------
+
+##### [Quick start](https://grpc.io/docs/platforms/android/kotlin/quickstart/)
+
+This guide gets you started with Kotlin gRPC on Android with a simple working example.
+
+##### [API reference](https://grpc.io/docs/platforms/android/kotlin/api/)
