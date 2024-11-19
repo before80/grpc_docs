@@ -57,4 +57,4 @@ ClientUser ServerBilling ServerRequest at 13:00:00Should complete in 2sGetUserPr
 
 ### Other Resources
 
-- [Deadlines blogpost](https://grpc.io/blog/deadlines/)
+- [Deadlines blogpost]({{< ref "/blog/gRPCandDeadlines" >}})

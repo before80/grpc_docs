@@ -145,7 +145,7 @@ The `ServerUnaryReactor`’s constructor is called when `GetFeature()` construct
 
 ### Client
 
-NOTE: For simplicity, we will not discuss how to create a channel and a stub in this tutorial. Please refer to [Basics tutorial](https://grpc.io/docs/languages/cpp/basics/) for that.
+NOTE: For simplicity, we will not discuss how to create a channel and a stub in this tutorial. Please refer to [Basics tutorial]({{< ref "/docs/Languages/CPlusPlus/Basicstutorial" >}}) for that.
 
 To start a `GetFeature` RPC, besides a `ClientContext`, a request (i.e., `Point`), and a response (i.e., `Feature`), the client also needs to pass a callback (i.e., `std::function<void(::grpc::Status)>`) to `stub_->async()->GetFeature()`. The callback will be invoked after the server has fulfilled the request and the RPC is finished.
 

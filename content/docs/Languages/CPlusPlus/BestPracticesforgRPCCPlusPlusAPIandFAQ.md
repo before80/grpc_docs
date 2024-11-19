@@ -22,7 +22,7 @@ draft = false
 
 - Please **use the callback API**.
 - **Look for header files with comments** in [third_party/grpc/include/grpcpp](https://github.com/grpc/grpc/tree/master/include/grpcpp).
-- **Always set a deadline on RPCs.** Here’s a [blog post](https://grpc.io/blog/deadlines/) with some explanation. It’s harder to do so for long-lasting streaming RPCs, but applications can implement custom logic to add deadlines for messages.
+- **Always set a deadline on RPCs.** Here’s a [blog post]({{< ref "/blog/gRPCandDeadlines" >}}) with some explanation. It’s harder to do so for long-lasting streaming RPCs, but applications can implement custom logic to add deadlines for messages.
 
 ## Streaming RPCs
 

@@ -18,5 +18,5 @@ draft = false
 
 The following languages support client-side gRPC on Android:
 
-- [Java](https://grpc.io/docs/platforms/android/java/)
-- [Kotlin](https://grpc.io/docs/platforms/android/kotlin/)
+- [Java]({{< ref "/docs/Platforms/Android/Java" >}})
+- [Kotlin]({{< ref "/docs/Platforms/Android/Kotlin" >}})

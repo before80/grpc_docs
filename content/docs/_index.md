@@ -19,24 +19,24 @@ draft = false
 
 
 
-Learn about key gRPC concepts, try a quick start, find tutorials and reference material for all supported [languages](https://grpc.io/docs/languages/) and [platforms](https://grpc.io/docs/platforms/):
+Learn about key gRPC concepts, try a quick start, find tutorials and reference material for all supported [languages]({{< ref "/docs/Languages" >}}) and [platforms]({{< ref "/docs/Platforms" >}}):
 
 - **New to gRPC?** Start with the following pages:
 
-  - [Introduction to gRPC](https://grpc.io/docs/what-is-grpc/introduction/)
-  - [Core concepts, architecture and lifecycle](https://grpc.io/docs/what-is-grpc/core-concepts/)
-  - [FAQ](https://grpc.io/docs/what-is-grpc/faq/)
+  - [Introduction to gRPC]({{< ref "/docs/WhatisgRPC/Introduction" >}})
+  - [Core concepts, architecture and lifecycle]({{< ref "/docs/WhatisgRPC/Coreconcepts" >}})
+  - [FAQ]({{< ref "/docs/WhatisgRPC/FAQ" >}})
 
 - **Eager to see gRPC in action?**
 
-  Select a [language](https://grpc.io/docs/languages/) or [platform](https://grpc.io/docs/platforms/), then choose its **Quick start**.
+  Select a [language]({{< ref "/docs/Languages" >}}) or [platform]({{< ref "/docs/Platforms" >}}), then choose its **Quick start**.
 
 - Interested in **gRPC feature details?**
 
   Try one of the following:
 
-  - Select a [language](https://grpc.io/docs/languages/) or [platform](https://grpc.io/docs/platforms/), then choose **Tutorial** or **API reference**
-  - [Guides](https://grpc.io/docs/guides/)
+  - Select a [language]({{< ref "/docs/Languages" >}}) or [platform]({{< ref "/docs/Platforms" >}}), then choose **Tutorial** or **API reference**
+  - [Guides]({{< ref "/docs/Guides" >}})
 
 ### Official support
 

@@ -281,4 +281,4 @@ That’s approximately what we see with the new code. The server is still serial
 
 There are a lot of opportunities to optimize your gRPC code. To take advantage of these, you need to understand what your code is doing, and what your code is supposed to do. This post shows the very basics of how to approach and think about optimization. Always make sure to measure before and after your changes, and use these measurements to guide your optimizations.
 
-In [Part 2](https://grpc.io/blog/optimizing-grpc-part-2/), we will continue optimizing the server part of the code.
+In [Part 2]({{< ref "/blog/SoYouWanttoOptimizegRPC-Part2" >}}), we will continue optimizing the server part of the code.

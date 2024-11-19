@@ -16,7 +16,7 @@ draft = false
 
 
 
-Each gRPC language / [platform](https://grpc.io/docs/platforms/) has links to the following pages and more:
+Each gRPC language / [platform]({{< ref "/docs/Platforms" >}}) has links to the following pages and more:
 
 - Quick start
 - Tutorials
@@ -24,14 +24,14 @@ Each gRPC language / [platform](https://grpc.io/docs/platforms/) has links to th
 
 Select a language to get started:
 
-- [C# / .NET](https://grpc.io/docs/languages/csharp/)
-- [C++](https://grpc.io/docs/languages/cpp/)
-- [Dart](https://grpc.io/docs/languages/dart/)
-- [Go](https://grpc.io/docs/languages/go/)
-- [Java](https://grpc.io/docs/languages/java/)
-- [Kotlin](https://grpc.io/docs/languages/kotlin/)
-- [Node](https://grpc.io/docs/languages/node/)
-- [Objective-C](https://grpc.io/docs/languages/objective-c/)
-- [PHP](https://grpc.io/docs/languages/php/)
-- [Python](https://grpc.io/docs/languages/python/)
-- [Ruby](https://grpc.io/docs/languages/ruby/)
+- [C# / .NET]({{< ref "/docs/Languages/CSharp_NET" >}})
+- [C++]({{< ref "/docs/Languages/CPlusPlus" >}})
+- [Dart]({{< ref "/docs/Languages/Dart" >}})
+- [Go]({{< ref "/docs/Languages/Go" >}})
+- [Java]({{< ref "/docs/Languages/Java" >}})
+- [Kotlin]({{< ref "/docs/Languages/Kotlin" >}})
+- [Node]({{< ref "/docs/Languages/Node" >}})
+- [Objective-C]({{< ref "/docs/Languages/Objective-C" >}})
+- [PHP]({{< ref "/docs/Languages/PHP" >}})
+- [Python]({{< ref "/docs/Languages/Python" >}})
+- [Ruby]({{< ref "/docs/Languages/Ruby" >}})

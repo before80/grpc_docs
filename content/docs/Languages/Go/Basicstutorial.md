@@ -26,7 +26,7 @@ By walking through this example you’ll learn how to:
 - Generate server and client code using the protocol buffer compiler.
 - Use the Go gRPC API to write a simple client and server for your service.
 
-It assumes that you have read the [Introduction to gRPC](https://grpc.io/docs/what-is-grpc/introduction/) and are familiar with [protocol buffers](https://protobuf.dev/overview). Note that the example in this tutorial uses the proto3 version of the protocol buffers language: you can find out more in the [proto3 language guide](https://protobuf.dev/programming-guides/proto3) and the [Go generated code guide](https://protobuf.dev/reference/go/go-generated).
+It assumes that you have read the [Introduction to gRPC]({{< ref "/docs/WhatisgRPC/Introduction" >}}) and are familiar with [protocol buffers](https://protobuf.dev/overview). Note that the example in this tutorial uses the proto3 version of the protocol buffers language: you can find out more in the [proto3 language guide](https://protobuf.dev/programming-guides/proto3) and the [Go generated code guide](https://protobuf.dev/reference/go/go-generated).
 
 ### Why use gRPC?
 
@@ -36,7 +36,7 @@ With gRPC we can define our service once in a `.proto` file and generate clients
 
 ### Setup
 
-You should have already installed the tools needed to generate client and server interface code – if you haven’t, see the [Prerequisites](https://grpc.io/docs/languages/go/quickstart/#prerequisites) section of [Quick start](https://grpc.io/docs/languages/go/quickstart/) for setup instructions.
+You should have already installed the tools needed to generate client and server interface code – if you haven’t, see the [Prerequisites](https://grpc.io/docs/languages/go/quickstart/#prerequisites) section of [Quick start]({{< ref "/docs/Languages/Go/Quickstart" >}}) for setup instructions.
 
 ### Get the example code
 
@@ -56,7 +56,7 @@ The example code is part of the [grpc-go](https://github.com/grpc/grpc-go) repo.
 
 ### Defining the service
 
-Our first step (as you’ll know from the [Introduction to gRPC](https://grpc.io/docs/what-is-grpc/introduction/)) is to define the gRPC *service* and the method *request* and *response* types using [protocol buffers](https://protobuf.dev/overview). For the complete `.proto` file, see [routeguide/route_guide.proto](https://github.com/grpc/grpc-go/blob/master/examples/route_guide/routeguide/route_guide.proto).
+Our first step (as you’ll know from the [Introduction to gRPC]({{< ref "/docs/WhatisgRPC/Introduction" >}})) is to define the gRPC *service* and the method *request* and *response* types using [protocol buffers](https://protobuf.dev/overview). For the complete `.proto` file, see [routeguide/route_guide.proto](https://github.com/grpc/grpc-go/blob/master/examples/route_guide/routeguide/route_guide.proto).
 
 To define a service, you specify a named `service` in your `.proto` file:
 
@@ -116,7 +116,7 @@ message Point {
 
 ### Generating client and server code
 
-Next we need to generate the gRPC client and server interfaces from our `.proto` service definition. We do this using the protocol buffer compiler `protoc` with a special gRPC Go plugin. This is similar to what we did in the [Quick start](https://grpc.io/docs/languages/go/quickstart/).
+Next we need to generate the gRPC client and server interfaces from our `.proto` service definition. We do this using the protocol buffer compiler `protoc` with a special gRPC Go plugin. This is similar to what we did in the [Quick start]({{< ref "/docs/Languages/Go/Quickstart" >}}).
 
 From the `examples/route_guide` directory, run the following command:
 

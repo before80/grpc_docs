@@ -18,8 +18,8 @@ draft = false
 
 ------
 
-##### [Quick start](https://grpc.io/docs/platforms/android/kotlin/quickstart/)
+##### [Quick start]({{< ref "/docs/Platforms/Android/Kotlin/Quickstart" >}})
 
 This guide gets you started with Kotlin gRPC on Android with a simple working example.
 
-##### [API reference](https://grpc.io/docs/platforms/android/kotlin/api/)
+##### [API reference]({{< ref "/docs/Platforms/Android/Kotlin/API" >}})

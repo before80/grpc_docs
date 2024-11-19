@@ -26,7 +26,7 @@ By walking through this example you’ll learn how to:
 - Generate server and client code using the protocol buffer compiler.
 - Use the Kotlin gRPC API to write a simple client and server for your service.
 
-You should already be familiar gRPC and protocol buffers; if not, see [Introduction to gRPC](https://grpc.io/docs/what-is-grpc/introduction/) and the proto3 [Language guide](https://protobuf.dev/programming-guides/proto3).
+You should already be familiar gRPC and protocol buffers; if not, see [Introduction to gRPC]({{< ref "/docs/WhatisgRPC/Introduction" >}}) and the proto3 [Language guide](https://protobuf.dev/programming-guides/proto3).
 
 ### Why use gRPC?
 
@@ -36,7 +36,7 @@ With gRPC we can define our service once in a `.proto` file and generate clients
 
 ### Setup
 
-This tutorial has the same [prerequisites](https://grpc.io/docs/languages/kotlin/quickstart/#prerequisites) as the [Quick start](https://grpc.io/docs/languages/kotlin/quickstart/). Install the necessary SDKs and tools before proceeding.
+This tutorial has the same [prerequisites](https://grpc.io/docs/languages/kotlin/quickstart/#prerequisites) as the [Quick start]({{< ref "/docs/Languages/Kotlin/Quickstart" >}}). Install the necessary SDKs and tools before proceeding.
 
 ### Get the example code
 
@@ -56,7 +56,7 @@ The example code is part of the [grpc-kotlin](https://github.com/grpc/grpc-kotli
 
 ### Defining the service
 
-Your first step (as you’ll know from the [Introduction to gRPC](https://grpc.io/docs/what-is-grpc/introduction/)) is to define the gRPC *service* and the method *request* and *response* types using [protocol buffers](https://protobuf.dev/programming-guides/proto3).
+Your first step (as you’ll know from the [Introduction to gRPC]({{< ref "/docs/WhatisgRPC/Introduction" >}})) is to define the gRPC *service* and the method *request* and *response* types using [protocol buffers](https://protobuf.dev/programming-guides/proto3).
 
 If you’d like to follow along by looking at the complete `.proto` file, see `routeguide/route_guide.proto` from the [protos/src/main/proto/io/grpc/examples](https://github.com/grpc/grpc-kotlin/tree/master/examples/protos/src/main/proto/io/grpc/examples) folder.
 

@@ -18,7 +18,7 @@ gRPC is supported across different software and hardware platforms.
 
 
 
-Each gRPC [language](https://grpc.io/docs/languages/) / platform has links to the following pages and more: quick start, tutorials, API reference.
+Each gRPC [language]({{< ref "/docs/Languages" >}}) / platform has links to the following pages and more: quick start, tutorials, API reference.
 
 New sections coming soon:
 
@@ -29,5 +29,5 @@ New sections coming soon:
 
 Select a development or target platform to get started:
 
-- [Android](https://grpc.io/docs/platforms/android/)
-- [Web](https://grpc.io/docs/platforms/web/)
+- [Android]({{< ref "/docs/Platforms/Android" >}})
+- [Web]({{< ref "/docs/Platforms/Web" >}})

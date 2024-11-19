@@ -41,5 +41,5 @@ The original Node gRPC library ([grpc](https://www.npmjs.com/package/grpc)) will
 
 However, some advanced features haven’t been ported to gRPC-JS yet, such as full compression support or support for other load balancing policies. If you need one of these features, you should use the [grpc](https://www.npmjs.com/package/grpc) library, but open a [feature request](https://github.com/grpc/grpc-node/issues/new?template=feature_request.md) over gRPC-JS to let us know which features you are missing the most.
 
-- [←Previous](https://grpc.io/blog/kotlin-meet-grpc/)
+- [←Previous]({{< ref "/blog/KotlinmeetgRPC" >}})
 - Next→

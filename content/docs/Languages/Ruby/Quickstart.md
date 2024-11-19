@@ -71,7 +71,7 @@ Congratulations! You’ve just run a client-server application with gRPC.
 
 ### Update the gRPC service
 
-Now let’s look at how to update the application with an extra method on the server for the client to call. Our gRPC service is defined using protocol buffers; you can find out lots more about how to define a service in a `.proto` file in [Basics tutorial](https://grpc.io/docs/languages/ruby/basics/). For now all you need to know is that both the server and the client “stub” have a `SayHello` RPC method that takes a `HelloRequest` parameter from the client and returns a `HelloResponse` from the server, and that this method is defined like this:
+Now let’s look at how to update the application with an extra method on the server for the client to call. Our gRPC service is defined using protocol buffers; you can find out lots more about how to define a service in a `.proto` file in [Basics tutorial]({{< ref "/docs/Languages/Ruby/Basicstutorial" >}}). For now all you need to know is that both the server and the client “stub” have a `SayHello` RPC method that takes a `HelloRequest` parameter from the client and returns a `HelloResponse` from the server, and that this method is defined like this:
 
 ```proto
 // The greeting service definition.
@@ -175,6 +175,6 @@ Just like we did before, from the `examples/ruby` directory:
 
 ### What’s next
 
-- Learn how gRPC works in [Introduction to gRPC](https://grpc.io/docs/what-is-grpc/introduction/) and [Core concepts](https://grpc.io/docs/what-is-grpc/core-concepts/).
-- Work through the [Basics tutorial](https://grpc.io/docs/languages/ruby/basics/).
-- Explore the [API reference](https://grpc.io/docs/languages/ruby/api).
+- Learn how gRPC works in [Introduction to gRPC]({{< ref "/docs/WhatisgRPC/Introduction" >}}) and [Core concepts]({{< ref "/docs/WhatisgRPC/Coreconcepts" >}}).
+- Work through the [Basics tutorial]({{< ref "/docs/Languages/Ruby/Basicstutorial" >}}).
+- Explore the [API reference]({{< ref "/docs/Languages/Ruby/API" >}}).

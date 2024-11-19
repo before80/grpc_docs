@@ -89,7 +89,7 @@ Congratulations! You’ve just run a client-server application with gRPC.
 
 ### Update the gRPC service
 
-In this section you’ll update the application by adding an extra server method. The gRPC service is defined using [protocol buffers](https://developers.google.com/protocol-buffers). To learn more about how to define a service in a `.proto` file see [Basics tutorial](https://grpc.io/docs/languages/kotlin/basics/). For now, all you need to know is that both the server and the client stub have a `SayHello()` RPC method that takes a `HelloRequest` parameter from the client and returns a `HelloReply` from the server, and that the method is defined like this:
+In this section you’ll update the application by adding an extra server method. The gRPC service is defined using [protocol buffers](https://developers.google.com/protocol-buffers). To learn more about how to define a service in a `.proto` file see [Basics tutorial]({{< ref "/docs/Languages/Kotlin/Basicstutorial" >}}). For now, all you need to know is that both the server and the client stub have a `SayHello()` RPC method that takes a `HelloRequest` parameter from the client and returns a `HelloReply` from the server, and that the method is defined like this:
 
 ```protobuf
 // The greeting service definition.
@@ -199,6 +199,6 @@ Run the client and server like you did before. Execute the following commands fr
 
 ### What’s next
 
-- Learn how gRPC works in [Introduction to gRPC](https://grpc.io/docs/what-is-grpc/introduction/) and [Core concepts](https://grpc.io/docs/what-is-grpc/core-concepts/).
-- Work through the [Basics tutorial](https://grpc.io/docs/languages/kotlin/basics/) for Kotlin/JVM.
-- Explore the [API reference](https://grpc.io/docs/platforms/android/kotlin/api).
+- Learn how gRPC works in [Introduction to gRPC]({{< ref "/docs/WhatisgRPC/Introduction" >}}) and [Core concepts]({{< ref "/docs/WhatisgRPC/Coreconcepts" >}}).
+- Work through the [Basics tutorial]({{< ref "/docs/Languages/Kotlin/Basicstutorial" >}}) for Kotlin/JVM.
+- Explore the [API reference]({{< ref "/docs/Platforms/Android/Kotlin/API" >}}).

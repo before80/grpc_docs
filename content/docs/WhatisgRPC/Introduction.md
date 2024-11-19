@@ -18,7 +18,7 @@ An introduction to gRPC and protocol buffers.
 
 
 
-This page introduces you to gRPC and protocol buffers. gRPC can use protocol buffers as both its Interface Definition Language (**IDL**) and as its underlying message interchange format. If you’re new to gRPC and/or protocol buffers, read this! If you just want to dive in and see gRPC in action first, [select a language](https://grpc.io/docs/languages/) and try its **Quick start**.
+This page introduces you to gRPC and protocol buffers. gRPC can use protocol buffers as both its Interface Definition Language (**IDL**) and as its underlying message interchange format. If you’re new to gRPC and/or protocol buffers, read this! If you just want to dive in and see gRPC in action first, [select a language]({{< ref "/docs/Languages" >}}) and try its **Quick start**.
 
 {{< youtube "njC24ts24Pg">}}
 
@@ -28,7 +28,7 @@ In gRPC, a client application can directly call a method on a server application
 
 
 
-![Concept Diagram](Introduction_img/landing-2.svg+xml)
+![Concept Diagram](Introduction_img/landing-2.svg)
 
 
 

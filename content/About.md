@@ -54,7 +54,7 @@ In our initial use of gRPC we’ve been able to extend it easily to live within 
 
 Our switch from a home-grown RPC system to gRPC was seamless. We quickly took advantage of the per-stream flow control to provide better scheduling of large RPCs over the same connection as small ones.
 
-[![Cisco testimonial logo](About_img/cisco.svg+xml)](https://github.com/CiscoDevNet/grpc-getting-started)
+[![Cisco testimonial logo](About_img/cisco.svg)](https://github.com/CiscoDevNet/grpc-getting-started)
 
 With support for high performance bi-directional streaming, TLS based security, and a wide variety of programming languages, gRPC is an ideal unified transport protocol for model driven configuration and telemetry.
 
@@ -66,7 +66,7 @@ The fact that gRPC is built on HTTP/2 transport brings us native bi-directional 
 
 gRPC was initially created by Google, which has used a single general-purpose RPC infrastructure called **Stubby** to connect the large number of microservices running within and across its data centers for over a decade. In March 2015, Google decided to build the next version of Stubby and make it open source. The result was gRPC, which is now used in many organizations outside of Google to power use cases from microservices to the “last mile” of computing (mobile, web, and Internet of Things).
 
-For more background on why we created gRPC, see the [gRPC Motivation and Design Principles](https://grpc.io/blog/principles/) on the [gRPC blog](https://grpc.io/blog/).
+For more background on why we created gRPC, see the [gRPC Motivation and Design Principles]({{< ref "/blog/gRPCMotivationandDesignPrinciples" >}}) on the [gRPC blog]({{< ref "/blog" >}}).
 
 > Note
 >

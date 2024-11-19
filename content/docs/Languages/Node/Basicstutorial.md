@@ -25,7 +25,7 @@ By walking through this example you’ll learn how to:
 - Define a service in a `.proto` file.
 - Use the Node.js gRPC API to write a simple client and server for your service.
 
-It assumes that you have read the [Introduction to gRPC](https://grpc.io/docs/what-is-grpc/introduction/) and are familiar with [protocol buffers](https://protobuf.dev/overview). Note that the example in this tutorial uses the [proto3](https://github.com/google/protobuf/releases) version of the protocol buffers language. You can find out more in the [proto3 language guide](https://protobuf.dev/programming-guides/proto3).
+It assumes that you have read the [Introduction to gRPC]({{< ref "/docs/WhatisgRPC/Introduction" >}}) and are familiar with [protocol buffers](https://protobuf.dev/overview). Note that the example in this tutorial uses the [proto3](https://github.com/google/protobuf/releases) version of the protocol buffers language. You can find out more in the [proto3 language guide](https://protobuf.dev/programming-guides/proto3).
 
 ### Why use gRPC?
 
@@ -50,11 +50,11 @@ Then change your current directory to `examples`:
 $ cd examples
 ```
 
-You also should have the relevant tools installed to generate the server and client interface code - if you don’t already, follow the setup instructions in [Quick start](https://grpc.io/docs/languages/node/quickstart/).
+You also should have the relevant tools installed to generate the server and client interface code - if you don’t already, follow the setup instructions in [Quick start]({{< ref "/docs/Languages/Node/Quickstart" >}}).
 
 ### Defining the service
 
-Our first step (as you’ll know from the [Introduction to gRPC](https://grpc.io/docs/what-is-grpc/introduction/)) is to define the gRPC *service* and the method *request* and *response* types using [protocol buffers](https://protobuf.dev/overview). You can see the complete .proto file in [`examples/protos/route_guide.proto`](https://github.com/grpc/grpc-node//blob/@grpc/grpc-js@1.9.0/examples/protos/route_guide.proto).
+Our first step (as you’ll know from the [Introduction to gRPC]({{< ref "/docs/WhatisgRPC/Introduction" >}})) is to define the gRPC *service* and the method *request* and *response* types using [protocol buffers](https://protobuf.dev/overview). You can see the complete .proto file in [`examples/protos/route_guide.proto`](https://github.com/grpc/grpc-node//blob/@grpc/grpc-js@1.9.0/examples/protos/route_guide.proto).
 
 To define a service, you specify a named `service` in your `.proto` file:
 

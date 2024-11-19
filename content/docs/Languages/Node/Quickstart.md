@@ -57,7 +57,7 @@ Congratulations! You’ve just run a client-server application with gRPC.
 
 ### Update the gRPC service
 
-Now let’s look at how to update the application with an extra method on the server for the client to call. Our gRPC service is defined using protocol buffers; you can find out lots more about how to define a service in a `.proto` file in [Basics tutorial](https://grpc.io/docs/languages/node/basics/). For now all you need to know is that both the server and the client “stub” have a `SayHello` RPC method that takes a `HelloRequest` parameter from the client and returns a `HelloReply` from the server, and that this method is defined like this:
+Now let’s look at how to update the application with an extra method on the server for the client to call. Our gRPC service is defined using protocol buffers; you can find out lots more about how to define a service in a `.proto` file in [Basics tutorial]({{< ref "/docs/Languages/Node/Basicstutorial" >}}). For now all you need to know is that both the server and the client “stub” have a `SayHello` RPC method that takes a `HelloRequest` parameter from the client and returns a `HelloReply` from the server, and that this method is defined like this:
 
 ```proto
 // The greeting service definition.
@@ -163,7 +163,7 @@ Just like we did before, from the `examples/helloworld/dynamic_codegen` director
 
 ### What’s next
 
-- Learn how gRPC works in [Introduction to gRPC](https://grpc.io/docs/what-is-grpc/introduction/) and [Core concepts](https://grpc.io/docs/what-is-grpc/core-concepts/).
-- Work through the [Basics tutorial](https://grpc.io/docs/languages/node/basics/).
-- Explore the [API reference](https://grpc.io/docs/languages/node/api).
+- Learn how gRPC works in [Introduction to gRPC]({{< ref "/docs/WhatisgRPC/Introduction" >}}) and [Core concepts]({{< ref "/docs/WhatisgRPC/Coreconcepts" >}}).
+- Work through the [Basics tutorial]({{< ref "/docs/Languages/Node/Basicstutorial" >}}).
+- Explore the [API reference]({{< ref "/docs/Languages/Node/API" >}}).
 - We have more than one grpc implementation for Node. For the pros and cons of each package, see this [package feature comparison](https://github.com/grpc/grpc-node/blob/master/PACKAGE-COMPARISON.md).

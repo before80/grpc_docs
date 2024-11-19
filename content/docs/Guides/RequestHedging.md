@@ -24,7 +24,7 @@ Hedging is one of two configurable retry policies supported by gRPC. With hedgin
 
 
 
-![Basic hedging diagram](RequestHedging_img/basic_hedge.svg+xml)
+![Basic hedging diagram](RequestHedging_img/basic_hedge.svg)
 
 
 

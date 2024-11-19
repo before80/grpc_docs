@@ -18,11 +18,11 @@ By [**Paulo Castello da Costa**](https://github.com/paulosjca) , [**Jan Tattermu
 
 
 
-[gRPC performance benchmarks](https://grpc.io/docs/guides/benchmarking) have now been transitioned to run on GKE, with similar results but much increased flexibility.
+[gRPC performance benchmarks]({{< ref "/docs/Guides/Benchmarking" >}}) have now been transitioned to run on GKE, with similar results but much increased flexibility.
 
 ## Background
 
-gRPC performance testing requires a test driver and workers (one or more clients and a server), as described in [gRPC performance benchmarks](https://grpc.io/docs/guides/benchmarking). Each test may have a different configuration, or *scenario*, that is passed to the driver and specified as a JSON file. Previously, the driver was run by the continuous integration process, and the workers were run on long-lived GCE VMs. This gave rise to several limitations:
+gRPC performance testing requires a test driver and workers (one or more clients and a server), as described in [gRPC performance benchmarks]({{< ref "/docs/Guides/Benchmarking" >}}). Each test may have a different configuration, or *scenario*, that is passed to the driver and specified as a JSON file. Previously, the driver was run by the continuous integration process, and the workers were run on long-lived GCE VMs. This gave rise to several limitations:
 
 1. Tests ran sequentially and were difficult to parallelize, since they ran on (the same) fixed VMs.
 2. The state of the VMs was not guaranteed to be the same at the start of each test.
@@ -74,7 +74,7 @@ The steps for building and deploying a controller are described in the [deployme
 
 ## Continuous integration
 
-Our continuous integration setup is described in the [gRPC OSS benchmarks README](https://github.com/grpc/grpc/blob/master/tools/run_tests/performance/README.md#grpc-oss-benchmarks) in the [gRPC Core](https://github.com/grpc/grpc) repository. The main continuous integration job uses the script [grpc_e2e_performance_gke.sh](https://github.com/grpc/grpc/blob/master/tools/internal_ci/linux/grpc_e2e_performance_gke.sh) to generate the data presented on the dashboard linked to the [gRPC performance benchmarks](https://grpc.io/docs/guides/benchmarking) page.
+Our continuous integration setup is described in the [gRPC OSS benchmarks README](https://github.com/grpc/grpc/blob/master/tools/run_tests/performance/README.md#grpc-oss-benchmarks) in the [gRPC Core](https://github.com/grpc/grpc) repository. The main continuous integration job uses the script [grpc_e2e_performance_gke.sh](https://github.com/grpc/grpc/blob/master/tools/internal_ci/linux/grpc_e2e_performance_gke.sh) to generate the data presented on the dashboard linked to the [gRPC performance benchmarks]({{< ref "/docs/Guides/Benchmarking" >}}) page.
 
 Each continuous integration run has three phases:
 

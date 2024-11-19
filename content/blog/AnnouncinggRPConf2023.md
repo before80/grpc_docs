@@ -40,5 +40,5 @@ Early bird registration is now open and is only $50. To register or find more in
 
 We hope to see you all there!
 
-- [←Previous](https://grpc.io/blog/grpconf-2023-schedule/)
+- [←Previous]({{< ref "/blog/gRPConf2023Schedule" >}})
 - Next→

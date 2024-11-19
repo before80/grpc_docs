@@ -20,10 +20,10 @@ draft = false
 
 ------
 
-##### [Quick start](https://grpc.io/docs/platforms/web/quickstart/)
+##### [Quick start]({{< ref "/docs/Platforms/Web/Quickstart" >}})
 
 This guide gets you started with gRPC-Web with a simple working example.
 
-##### [Basics tutorial](https://grpc.io/docs/platforms/web/basics/)
+##### [Basics tutorial]({{< ref "/docs/Platforms/Web/Basicstutorial" >}})
 
 A basic tutorial introduction to gRPC-web.

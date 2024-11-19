@@ -18,7 +18,7 @@ draft = false
 
 
 
-This page describes the code generated when compiling `.proto` files with `protoc`, using the `protoc-gen-go-grpc` [grpc plugin](https://pkg.go.dev/google.golang.org/grpc/cmd/protoc-gen-go-grpc). This latest version of generated code uses generics by default. If you’re working with older generated code that doesn’t use generics, you can find the relevant documentation [here](https://grpc.io/docs/languages/go/generated-code-old). While we encourage using this latest version with generics, you can temporarily revert to the old behavior by setting the `useGenericStreams` flag to `false`.
+This page describes the code generated when compiling `.proto` files with `protoc`, using the `protoc-gen-go-grpc` [grpc plugin](https://pkg.go.dev/google.golang.org/grpc/cmd/protoc-gen-go-grpc). This latest version of generated code uses generics by default. If you’re working with older generated code that doesn’t use generics, you can find the relevant documentation [here]({{< ref "/docs/Languages/Go/Generated-codelegacy" >}}). While we encourage using this latest version with generics, you can temporarily revert to the old behavior by setting the `useGenericStreams` flag to `false`.
 
 You can find out how to define a gRPC service in a `.proto` file in [Service definition](https://grpc.io/docs/what-is-grpc/core-concepts/#service-definition).
 

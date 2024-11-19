@@ -26,7 +26,7 @@ By walking through this example you’ll learn how to:
 - Generate server and client code using the protocol buffer compiler.
 - Use the Java gRPC API to write a simple client and server for your service.
 
-It assumes that you have read the [Introduction to gRPC](https://grpc.io/docs/what-is-grpc/introduction/) and are familiar with [protocol buffers](https://protobuf.dev/overview). Note that the example in this tutorial uses the [proto3](https://github.com/google/protobuf/releases) version of the protocol buffers language: you can find out more in the [proto3 language guide](https://protobuf.dev/programming-guides/proto3) and [Java generated code guide](https://protobuf.dev/reference/java/java-generated).
+It assumes that you have read the [Introduction to gRPC]({{< ref "/docs/WhatisgRPC/Introduction" >}}) and are familiar with [protocol buffers](https://protobuf.dev/overview). Note that the example in this tutorial uses the [proto3](https://github.com/google/protobuf/releases) version of the protocol buffers language: you can find out more in the [proto3 language guide](https://protobuf.dev/programming-guides/proto3) and [Java generated code guide](https://protobuf.dev/reference/java/java-generated).
 
 ### Why use gRPC?
 
@@ -50,7 +50,7 @@ $ cd grpc-java/examples
 
 ### Defining the service
 
-Our first step (as you’ll know from the [Introduction to gRPC](https://grpc.io/docs/what-is-grpc/introduction/)) is to define the gRPC *service* and the method *request* and *response* types using [protocol buffers](https://protobuf.dev/overview). You can see the complete `.proto` file in [grpc-java/examples/src/main/proto/route_guide.proto](https://github.com/grpc/grpc-java/blob/master/examples/src/main/proto/route_guide.proto).
+Our first step (as you’ll know from the [Introduction to gRPC]({{< ref "/docs/WhatisgRPC/Introduction" >}})) is to define the gRPC *service* and the method *request* and *response* types using [protocol buffers](https://protobuf.dev/overview). You can see the complete `.proto` file in [grpc-java/examples/src/main/proto/route_guide.proto](https://github.com/grpc/grpc-java/blob/master/examples/src/main/proto/route_guide.proto).
 
 As we’re generating Java code in this example, we’ve specified a `java_package` file option in our `.proto`:
 

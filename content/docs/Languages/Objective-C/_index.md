@@ -18,10 +18,10 @@ draft = false
 
 These language-specific pages are available:
 
-- [Quick start](https://grpc.io/docs/languages/objective-c/quickstart/)
-- [Basics tutorial](https://grpc.io/docs/languages/objective-c/basics/)
-- [OAuth2 tutorial](https://grpc.io/docs/languages/objective-c/oauth2/)
-- [API reference](https://grpc.io/docs/languages/objective-c/api/)
+- [Quick start]({{< ref "/docs/Languages/Objective-C/Quickstart" >}})
+- [Basics tutorial]({{< ref "/docs/Languages/Objective-C/Basicstutorial" >}})
+- [OAuth2 tutorial]({{< ref "/docs/Languages/Objective-C/OAuth2" >}})
+- [API reference]({{< ref "/docs/Languages/Objective-C/API" >}})
 
 Related resources:
 

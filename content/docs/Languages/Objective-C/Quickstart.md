@@ -287,6 +287,6 @@ and run the client app. If you look at the console messages, You’ll see two RP
 
 ### What’s next
 
-- Learn how gRPC works in [Introduction to gRPC](https://grpc.io/docs/what-is-grpc/introduction/) and [Core concepts](https://grpc.io/docs/what-is-grpc/core-concepts/).
-- Work through the [Basics tutorial](https://grpc.io/docs/languages/objective-c/basics/).
-- Explore the [API reference](https://grpc.io/docs/languages/objective-c/api).
+- Learn how gRPC works in [Introduction to gRPC]({{< ref "/docs/WhatisgRPC/Introduction" >}}) and [Core concepts]({{< ref "/docs/WhatisgRPC/Coreconcepts" >}}).
+- Work through the [Basics tutorial]({{< ref "/docs/Languages/Objective-C/Basicstutorial" >}}).
+- Explore the [API reference]({{< ref "/docs/Languages/Objective-C/API" >}}).

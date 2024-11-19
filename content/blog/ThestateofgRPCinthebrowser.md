@@ -125,7 +125,7 @@ Either way, gRPC-Web is an excellent choice for web developers. It brings the po
 18. [streams.spec.whatwg.org](https://streams.spec.whatwg.org/) [↩](https://grpc.io/blog/state-of-grpc-web/#a18)
 19. The Improbable client supports client-side and bi-directional streaming with an experimental websocket transport. This is not part of the gRPC-Web spec, and is not recommended for production use. [↩](https://grpc.io/blog/state-of-grpc-web/#a19)
 20. `grpcweb` allows server streaming methods to be called, but it doesn’t return data until the stream has closed. [↩](https://grpc.io/blog/state-of-grpc-web/#a20)
-21. [gRPC-Web is Generally Available](https://grpc.io/blog/grpc-web-ga/) [↩](https://grpc.io/blog/state-of-grpc-web/#a21)
+21. [gRPC-Web is Generally Available]({{< ref "/blog/gRPC-WebisGenerallyAvailable" >}}) [↩](https://grpc.io/blog/state-of-grpc-web/#a21)
 22. [github.com/grpc/grpc-web/blob/master/doc/roadmap.md](https://github.com/grpc/grpc-web/blob/master/doc/roadmap.md) [↩](https://grpc.io/blog/state-of-grpc-web/#a22)
 23. [docs.google.com/forms/d/1NjWpyRviohn5jaPntosBHXRXZYkh_Ffi4GxJZFibylM](https://docs.google.com/forms/d/1NjWpyRviohn5jaPntosBHXRXZYkh_Ffi4GxJZFibylM) [↩](https://grpc.io/blog/state-of-grpc-web/#a23)
 

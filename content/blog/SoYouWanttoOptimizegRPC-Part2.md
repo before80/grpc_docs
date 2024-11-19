@@ -18,11 +18,11 @@ By [**Carl Mastrangelo**](https://carlmastrangelo.com/) (Google) | Monday, April
 
 
 
-How fast is gRPC? Pretty fast if you understand how modern clients and servers are built. In [part 1](https://grpc.io/blog/optimizing-grpc-part-1/), I showed how to get an easy **60%** improvement. In this post I show how to get a **10000%** improvement.
+How fast is gRPC? Pretty fast if you understand how modern clients and servers are built. In [part 1]({{< ref "/blog/SoYouWanttoOptimizegRPC-Part1" >}}), I showed how to get an easy **60%** improvement. In this post I show how to get a **10000%** improvement.
 
 ## Setup
 
-As in [part 1](https://grpc.io/blog/optimizing-grpc-part-1/), we will start with an existing, Java based, key-value service. The service will offer concurrent access for creating, reading, updating, and deleting keys and values. All the code can be seen [here](https://github.com/carl-mastrangelo/kvstore/tree/03-nonblocking-server) if you want to try it out.
+As in [part 1]({{< ref "/blog/SoYouWanttoOptimizegRPC-Part1" >}}), we will start with an existing, Java based, key-value service. The service will offer concurrent access for creating, reading, updating, and deleting keys and values. All the code can be seen [here](https://github.com/carl-mastrangelo/kvstore/tree/03-nonblocking-server) if you want to try it out.
 
 ## Server Concurrency
 

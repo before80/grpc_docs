@@ -18,7 +18,7 @@ By **Zhenli Jiang** (Google) | Thursday, June 18, 2020
 
 
 
-We’re pleased to announce support for *interceptors* in [gRPC-web](https://github.com/grpc/grpc-web) as of release [1.1.0](https://github.com/grpc/grpc-web/releases/tag/1.1.0). While the current design is based on gRPC client interceptors available from other [gRPC languages](https://grpc.io/docs/languages/), it also includes gRPC-web specific features that should make interceptors easy to adopt and use alongside modern web frameworks.
+We’re pleased to announce support for *interceptors* in [gRPC-web](https://github.com/grpc/grpc-web) as of release [1.1.0](https://github.com/grpc/grpc-web/releases/tag/1.1.0). While the current design is based on gRPC client interceptors available from other [gRPC languages]({{< ref "/docs/Languages" >}}), it also includes gRPC-web specific features that should make interceptors easy to adopt and use alongside modern web frameworks.
 
 ## Introduction
 

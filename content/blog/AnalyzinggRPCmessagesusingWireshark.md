@@ -38,7 +38,7 @@ This post focuses on the analysis of captured gRPC messages. To learn how to sto
 
 #### Note
 
-Currently, Wireshark can only parse **plain text** gRPC messages. While [Wireshark supports TLS dissection](https://gitlab.com/wireshark/wireshark/-/wikis/tls), it requires per-session secret keys. As of the time of writing, the only [Go gRPC](https://grpc.io/docs/languages/go) supports the exporting such keys. To learn how to export keys using Go gRPC – and other languages as support becomes available – see [How to Export TLS Master keys of gRPC](https://gitlab.com/wireshark/wireshark/-/wikis/How-to-Export-TLS-Master-keys-of-gRPC).
+Currently, Wireshark can only parse **plain text** gRPC messages. While [Wireshark supports TLS dissection](https://gitlab.com/wireshark/wireshark/-/wikis/tls), it requires per-session secret keys. As of the time of writing, the only [Go gRPC]({{< ref "/docs/Languages/Go" >}}) supports the exporting such keys. To learn how to export keys using Go gRPC – and other languages as support becomes available – see [How to Export TLS Master keys of gRPC](https://gitlab.com/wireshark/wireshark/-/wikis/How-to-Export-TLS-Master-keys-of-gRPC).
 
 ## Example
 

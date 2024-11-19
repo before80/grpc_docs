@@ -24,7 +24,7 @@ Here are some frequently asked questions. Hope you find your answer here :-)
 
 gRPC is a modern, open source remote procedure call (RPC) framework that can run anywhere. It enables client and server applications to communicate transparently, and makes it easier to build connected systems.
 
-Read the longer [Motivation & Design Principles](https://grpc.io/blog/principles/) post for background on why we created gRPC.
+Read the longer [Motivation & Design Principles]({{< ref "/blog/gRPCMotivationandDesignPrinciples" >}}) post for background on why we created gRPC.
 
 ### What does gRPC stand for?
 

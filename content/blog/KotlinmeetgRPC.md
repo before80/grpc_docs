@@ -22,8 +22,8 @@ As developers work to modernize applications, they need foundational tools that 
 
 For the full announcement, including how to deploy gRPC Kotlin services on [Cloud Run](https://cloud.run/), see the Google Cloud blog, [Kotlin, meet gRPC: a new open-source project for modern apps](https://cloud.google.com/blog/products/application-development/use-grpc-with-kotlin).
 
-For more information, see the following [Kotlin pages](https://grpc.io/docs/languages/kotlin/):
+For more information, see the following [Kotlin pages]({{< ref "/docs/Languages/Kotlin" >}}):
 
-- [Quick start](https://grpc.io/docs/languages/kotlin/quickstart/)
-- [Basics tutorial](https://grpc.io/docs/languages/kotlin/basics/)
-- [API reference](https://grpc.io/docs/languages/kotlin/api/)
+- [Quick start]({{< ref "/docs/Languages/Kotlin/Quickstart" >}})
+- [Basics tutorial]({{< ref "/docs/Languages/Kotlin/Basicstutorial" >}})
+- [API reference]({{< ref "/docs/Languages/Kotlin/API" >}})

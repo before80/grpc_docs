@@ -22,7 +22,7 @@ Did you know that gRPC Java now has out of box support for Kotlin projects built
 
 #### Native Kotlin support
 
-Looking for native Kotlin support of gRPC? See [Kotlin, meet gRPC](https://grpc.io/blog/kotlin-meet-grpc/).
+Looking for native Kotlin support of gRPC? See [Kotlin, meet gRPC]({{< ref "/blog/KotlinmeetgRPC" >}}).
 
 The following examples show you how to configure a project for a JVM application and an Android application using Kotlin.
 

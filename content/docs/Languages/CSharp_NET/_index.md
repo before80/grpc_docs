@@ -16,7 +16,7 @@ draft = false
 
 
 
-*This page used to contain the documentation for the original C# implementation of gRPC based on the native gRPC Core library (i.e. `Grpc.Core` nuget package). The implementation is currently in maintenance mode and its source code has been [moved](https://github.com/grpc/grpc/blob/master/src/csharp/README.md). We plan to deprecate the implementation in the future (see [blogpost](https://grpc.io/blog/grpc-csharp-future/)) and we recommend that all users use the [grpc-dotnet](https://github.com/grpc/grpc-dotnet) implementation instead.*
+*This page used to contain the documentation for the original C# implementation of gRPC based on the native gRPC Core library (i.e. `Grpc.Core` nuget package). The implementation is currently in maintenance mode and its source code has been [moved](https://github.com/grpc/grpc/blob/master/src/csharp/README.md). We plan to deprecate the implementation in the future (see [blogpost]({{< ref "/blog/ThefutureofgRPCinCSharpbelongstogrpc-dotnet" >}})) and we recommend that all users use the [grpc-dotnet](https://github.com/grpc/grpc-dotnet) implementation instead.*
 
 The following pages cover the C# implementation of gRPC for .NET ([grpc-dotnet](https://github.com/grpc/grpc-dotnet)):
 

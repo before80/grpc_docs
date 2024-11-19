@@ -29,7 +29,7 @@ The example code is part of the [grpc](https://github.com/grpc/grpc) repo.
 
 > Note
 >
-> You can only create gRPC clients in PHP. Use [another language](https://grpc.io/docs/languages/) to create a gRPC server.
+> You can only create gRPC clients in PHP. Use [another language]({{< ref "/docs/Languages" >}}) to create a gRPC server.
 
 1. Clone the [grpc](https://github.com/grpc/grpc) repo and its submodules:
 
@@ -52,7 +52,7 @@ The example code is part of the [grpc](https://github.com/grpc/grpc) repo.
 
 ### Run the example
 
-1. Launch the quick start server: for example, follow the instructions given in the [Quick start for Node](https://grpc.io/docs/languages/node/quickstart/).
+1. Launch the quick start server: for example, follow the instructions given in the [Quick start for Node]({{< ref "/docs/Languages/Node/Quickstart" >}}).
 
 2. From the `examples/php` directory, run the PHP client:
 
@@ -64,7 +64,7 @@ Congratulations! You’ve just run a client-server application with gRPC.
 
 ### Update the gRPC service
 
-Now let’s look at how to update the application with an extra method on the server for the client to call. Our gRPC service is defined using protocol buffers; you can find out lots more about how to define a service in a `.proto` file in [Basics tutorial](https://grpc.io/docs/languages/php/basics/). For now all you need to know is that both the server and the client “stub” have a `SayHello` RPC method that takes a `HelloRequest` parameter from the client and returns a `HelloResponse` from the server, and that this method is defined like this:
+Now let’s look at how to update the application with an extra method on the server for the client to call. Our gRPC service is defined using protocol buffers; you can find out lots more about how to define a service in a `.proto` file in [Basics tutorial]({{< ref "/docs/Languages/PHP/Basicstutorial" >}}). For now all you need to know is that both the server and the client “stub” have a `SayHello` RPC method that takes a `HelloRequest` parameter from the client and returns a `HelloResponse` from the server, and that this method is defined like this:
 
 ```protobuf
 // The greeting service definition.
@@ -186,6 +186,6 @@ Just like we did before, from the `grpc-node/examples/helloworld/dynamic_codegen
 
 ### What’s next
 
-- Learn how gRPC works in [Introduction to gRPC](https://grpc.io/docs/what-is-grpc/introduction/) and [Core concepts](https://grpc.io/docs/what-is-grpc/core-concepts/).
-- Work through the [Basics tutorial](https://grpc.io/docs/languages/php/basics/).
-- Explore the [API reference](https://grpc.io/docs/languages/php/api).
+- Learn how gRPC works in [Introduction to gRPC]({{< ref "/docs/WhatisgRPC/Introduction" >}}) and [Core concepts]({{< ref "/docs/WhatisgRPC/Coreconcepts" >}}).
+- Work through the [Basics tutorial]({{< ref "/docs/Languages/PHP/Basicstutorial" >}}).
+- Explore the [API reference]({{< ref "/docs/Languages/PHP/API" >}}).

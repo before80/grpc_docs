@@ -26,7 +26,7 @@ There are three main stacks in gRPC: C-core, Go, and Java. Most of the languages
 
 
 
-![gRPC Core Stack](VisualizinggRPCLanguageStacks_img/grpc-core-stack.svg+xml)
+![gRPC Core Stack](VisualizinggRPCLanguageStacks_img/grpc-core-stack.svg)
 
 
 
@@ -42,7 +42,7 @@ In [gRPC-Go](https://github.com/grpc/grpc-go), the stack is much simpler, due to
 
 
 
-![gRPC Go Stack](VisualizinggRPCLanguageStacks_img/grpc-go-stack.svg+xml)
+![gRPC Go Stack](VisualizinggRPCLanguageStacks_img/grpc-go-stack.svg)
 
 
 
@@ -54,7 +54,7 @@ Here is a high level overview of the [gRPC-Java](https://github.com/grpc/grpc-ja
 
 
 
-![gRPC Java Stack](VisualizinggRPCLanguageStacks_img/grpc-java-stack.svg+xml)
+![gRPC Java Stack](VisualizinggRPCLanguageStacks_img/grpc-java-stack.svg)
 
 
 

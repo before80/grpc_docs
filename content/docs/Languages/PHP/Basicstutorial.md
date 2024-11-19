@@ -28,7 +28,7 @@ By walking through this example you’ll learn how to:
 
 It assumes a passing familiarity with [protocol buffers](https://protobuf.dev/overview). Note that the example in this tutorial uses the proto2 version of the protocol buffers language.
 
-Also note that currently, you can only create clients in PHP for gRPC services. Use [another language](https://grpc.io/docs/languages/) to create a gRPC server.
+Also note that currently, you can only create clients in PHP for gRPC services. Use [another language]({{< ref "/docs/Languages" >}}) to create a gRPC server.
 
 ### Why use gRPC?
 
@@ -64,7 +64,7 @@ $ ./route_guide_proto_gen.sh
 
 Our example is a simple route mapping application that lets clients get information about features on their route, create a summary of their route, and exchange route information such as traffic updates with the server and other clients.
 
-You also should have the relevant tools installed to generate the client interface code (and a server in another language, for testing). You can obtain the latter by following [these setup instructions](https://grpc.io/docs/languages/node/basics/), for example.
+You also should have the relevant tools installed to generate the client interface code (and a server in another language, for testing). You can obtain the latter by following [these setup instructions]({{< ref "/docs/Languages/Node/Basicstutorial" >}}), for example.
 
 ### Try it out!
 

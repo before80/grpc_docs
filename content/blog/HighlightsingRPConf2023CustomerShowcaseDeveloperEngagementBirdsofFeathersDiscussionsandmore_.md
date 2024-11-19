@@ -76,7 +76,7 @@ We received a wealth of feedbacks from everyone throughout the day which has hel
 - [gRPC YouTube Channel](https://www.youtube.com/@grpcio)
 - [gRPC Meetup Group](https://www.meetup.com/grpcio/)
 - [Website](https://grpc.io/)
-- [Blog](https://grpc.io/blog/)
+- [Blog]({{< ref "/blog" >}})
 - [GitHub](https://github.com/grpc)
 - [Google Group Forum](https://groups.google.com/g/grpc-io)
 - [Twitter](https://twitter.com/grpcio)

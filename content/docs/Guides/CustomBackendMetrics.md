@@ -28,7 +28,7 @@ The custom backend metrics feature exposes APIs to allow users to implement the 
 
 The feature is mainly for advanced use cases where a custom LB policy is used to route traffic more intelligently to a list of backend servers to improve the routing performance, e.g. a weighted round robin LB policy.
 
-gRPC traditionally allows users to plug in their own load balancing policies, see [guide](https://grpc.io/docs/guides/custom-load-balancing/). For xDS users, [custom load balancer](https://github.com/grpc/proposal/blob/master/A52-xds-custom-lb-policies.md) can be configured to select the custom LB policy.
+gRPC traditionally allows users to plug in their own load balancing policies, see [guide]({{< ref "/docs/Guides/CustomLoadBalancingPolicies" >}}). For xDS users, [custom load balancer](https://github.com/grpc/proposal/blob/master/A52-xds-custom-lb-policies.md) can be configured to select the custom LB policy.
 
 ### Metrics Reporting
 
@@ -41,7 +41,7 @@ The diagram shows the architecture where a user creates their own LB policy that
 
 
 
-![gRPC backend metrics diagram](CustomBackendMetrics_img/backend_metrics.svg+xml)
+![gRPC backend metrics diagram](CustomBackendMetrics_img/backend_metrics.svg)
 
 
 

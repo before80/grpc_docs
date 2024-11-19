@@ -36,11 +36,11 @@ A service can be composed of multiple servers and the load balancing configurati
 
 RPCs can be configured in many ways:
 
-- With [wait-for-ready](https://grpc.io/docs/guides/wait-for-ready/) enabled, if a client cannot connect to a backend, the RPC will be delayed instead of immediately failing.
-- A call [timeout](https://grpc.io/docs/guides/deadlines/) can be provided, indicating the maximum time the client should wait before giving up on the RPC.
+- With [wait-for-ready]({{< ref "/docs/Guides/Wait-for-Ready" >}}) enabled, if a client cannot connect to a backend, the RPC will be delayed instead of immediately failing.
+- A call [timeout]({{< ref "/docs/Guides/Deadlines" >}}) can be provided, indicating the maximum time the client should wait before giving up on the RPC.
 - One of:
-  - [Retry](https://grpc.io/docs/guides/retry/) policy (max attempts, backoff settings, retryable status codes)
-  - [Hedging](https://grpc.io/docs/guides/request-hedging/) policy (max attempts, delay, non-fatal status codes)
+  - [Retry]({{< ref "/docs/Guides/Retry" >}}) policy (max attempts, backoff settings, retryable status codes)
+  - [Hedging]({{< ref "/docs/Guides/RequestHedging" >}}) policy (max attempts, delay, non-fatal status codes)
 
 #### Note
 
@@ -50,7 +50,7 @@ Retry and hedging policies can be further adjusted by setting a *retry throttlin
 
 #### Health Checking
 
-A client can be configured to perform [health checking](https://grpc.io/docs/guides/health-checking/) by providing a health checking name. The client will then use the standard gRPC health checking service.
+A client can be configured to perform [health checking]({{< ref "/docs/Guides/HealthChecking" >}}) by providing a health checking name. The client will then use the standard gRPC health checking service.
 
 ### Acquiring a Service Config
 

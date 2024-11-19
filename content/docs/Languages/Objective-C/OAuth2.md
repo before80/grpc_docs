@@ -26,7 +26,7 @@ By walking through it you’ll also learn how to use the Objective-C gRPC API to
 - Set request metadata elements on a call, which are semantically equivalent to HTTP request headers.
 - Read response metadata from a call, which is equivalent to HTTP response headers and trailers.
 
-It assumes you know the basics on how to make gRPC API calls using the Objective-C client library, as shown in [Basics tutorial](https://grpc.io/docs/languages/objective-c/basics/) and the [Introduction to gRPC](https://grpc.io/docs/what-is-grpc/introduction/), and are familiar with OAuth2 concepts like *access token*.
+It assumes you know the basics on how to make gRPC API calls using the Objective-C client library, as shown in [Basics tutorial]({{< ref "/docs/Languages/Objective-C/Basicstutorial" >}}) and the [Introduction to gRPC]({{< ref "/docs/WhatisgRPC/Introduction" >}}), and are familiar with OAuth2 concepts like *access token*.
 
 ### Example code and setup
 

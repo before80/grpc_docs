@@ -26,7 +26,7 @@ By walking through this example you’ll learn how to:
 - Generate server and client code using the protocol buffer compiler.
 - Use the Dart gRPC API to write a simple client and server for your service.
 
-It assumes that you have read the [Introduction to gRPC](https://grpc.io/docs/what-is-grpc/introduction/) and are familiar with [protocol buffers](https://protobuf.dev/overview). Note that the example in this tutorial uses the proto3 version of the protocol buffers language: you can find out more in the [proto3 language guide](https://protobuf.dev/programming-guides/proto3).
+It assumes that you have read the [Introduction to gRPC]({{< ref "/docs/WhatisgRPC/Introduction" >}}) and are familiar with [protocol buffers](https://protobuf.dev/overview). Note that the example in this tutorial uses the proto3 version of the protocol buffers language: you can find out more in the [proto3 language guide](https://protobuf.dev/programming-guides/proto3).
 
 ### Why use gRPC?
 
@@ -48,11 +48,11 @@ Then change your current directory to `grpc-dart/example/route_guide`:
 $ cd grpc-dart/example/route_guide
 ```
 
-You should have already installed the tools needed to generate client and server interface code – if you haven’t, see [Quick start](https://grpc.io/docs/languages/dart/quickstart/) for setup instructions.
+You should have already installed the tools needed to generate client and server interface code – if you haven’t, see [Quick start]({{< ref "/docs/Languages/Dart/Quickstart" >}}) for setup instructions.
 
 ### Defining the service
 
-Our first step (as you’ll know from the [Introduction to gRPC](https://grpc.io/docs/what-is-grpc/introduction/)) is to define the gRPC *service* and the method *request* and *response* types using [protocol buffers](https://protobuf.dev/overview). You can see the complete `.proto` file in [`example/route_guide/protos/route_guide.proto`](https://github.com/grpc/grpc-dart/blob/master/example/route_guide/protos/route_guide.proto).
+Our first step (as you’ll know from the [Introduction to gRPC]({{< ref "/docs/WhatisgRPC/Introduction" >}})) is to define the gRPC *service* and the method *request* and *response* types using [protocol buffers](https://protobuf.dev/overview). You can see the complete `.proto` file in [`example/route_guide/protos/route_guide.proto`](https://github.com/grpc/grpc-dart/blob/master/example/route_guide/protos/route_guide.proto).
 
 To define a service, you specify a named `service` in your `.proto` file:
 
@@ -112,7 +112,7 @@ message Point {
 
 ### Generating client and server code
 
-Next we need to generate the gRPC client and server interfaces from our `.proto` service definition. We do this using the protocol buffer compiler `protoc` with a special Dart plugin. This is similar to what we did in the [Quick start](https://grpc.io/docs/languages/dart/quickstart/).
+Next we need to generate the gRPC client and server interfaces from our `.proto` service definition. We do this using the protocol buffer compiler `protoc` with a special Dart plugin. This is similar to what we did in the [Quick start]({{< ref "/docs/Languages/Dart/Quickstart" >}}).
 
 From the `route_guide` example directory run:
 

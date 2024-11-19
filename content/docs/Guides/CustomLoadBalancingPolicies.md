@@ -54,7 +54,7 @@ P --> |Picks one| SC
 
 What if your load balancing policy needs real-time information about the backend servers? For this you can rely on backend metrics. You can have metrics provided to you either in-band, in the backend RPC responses, or out-of-band as separate RPCs from the backends. Standard metrics like CPU and memory utilization are provided, but you can also implement your own custom metrics.
 
-For more information on this, please see the custom backend metrics [guide](https://grpc.io/docs/guides/custom-backend-metrics/)
+For more information on this, please see the custom backend metrics [guide]({{< ref "/docs/Guides/CustomBackendMetrics" >}})
 
 ### Service Mesh
 

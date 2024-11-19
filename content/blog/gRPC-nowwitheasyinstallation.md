@@ -42,4 +42,4 @@ Here’s how to install the gRPC runtime today in all our supported languages:
 | Java        | Linux, Mac, Windows | Use our [Maven and Gradle plugins](https://github.com/grpc/grpc-java/blob/master/README.md) that provide gRPC with [statically linked `boringssl`](https://github.com/grpc/grpc-java/blob/master/SECURITY.md#openssl-statically-linked-netty-tcnative-boringssl-static) |
 | C++         | Linux, Mac, Windows | Currently requires [manual build and install](https://github.com/grpc/grpc/blob/v1.66.0/src/cpp/README.md) |
 
-You can find out more about installation in our [quick start pages](https://grpc.io/docs/languages/) and GitHub repositories. Do send us your feedback on our [mailing list](https://groups.google.com/g/grpc-io) or file issues on our issue tracker if you run into any problems.
+You can find out more about installation in our [quick start pages]({{< ref "/docs/Languages" >}}) and GitHub repositories. Do send us your feedback on our [mailing list](https://groups.google.com/g/grpc-io) or file issues on our issue tracker if you run into any problems.

@@ -90,4 +90,4 @@ This example app has three key components:
 
 ### What’s next
 
-- Work through the [Basics tutorial](https://grpc.io/docs/platforms/web/basics/).
+- Work through the [Basics tutorial]({{< ref "/docs/Platforms/Web/Basicstutorial" >}}).

@@ -28,7 +28,7 @@ You may already be familiar with the concept of interceptors, but may be used to
 
 Some example use cases for interceptors are:
 
-- [Metadata](https://grpc.io/docs/guides/metadata/) handling
+- [Metadata]({{< ref "/docs/Guides/Metadata" >}}) handling
 - Logging
 - Fault injection
 - Caching
@@ -39,7 +39,7 @@ Some example use cases for interceptors are:
 
 #### Note
 
-While *client-side* authentication could be done via an interceptor, gRPC provides a specialized “call credentials” API that is better suited to the task. See the [Authentication Guide](https://grpc.io/docs/guides/auth/) for details about client-side authentication.
+While *client-side* authentication could be done via an interceptor, gRPC provides a specialized “call credentials” API that is better suited to the task. See the [Authentication Guide]({{< ref "/docs/Guides/Authentication" >}}) for details about client-side authentication.
 
 ### How to Use Interceptors
 

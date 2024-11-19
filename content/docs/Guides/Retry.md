@@ -57,7 +57,7 @@ You can optimize your application’s retry functionality by focusing on key ste
 - Exponential backoff
 - Set of retryable status codes
 
-Retry is configurable via [gRPC Service Config](https://grpc.io/docs/guides/service-config), at a per-method granularity. The configuration contains the following knobs:
+Retry is configurable via [gRPC Service Config]({{< ref "/docs/Guides/ServiceConfig" >}}), at a per-method granularity. The configuration contains the following knobs:
 
 ```
 "retryPolicy": {
@@ -84,7 +84,7 @@ gRPC supports throttle limit that prevents server overload due to retries. Below
 
 For each server, the gRPC client tracks a `token_count` (initially set to `maxTokens`). Failed RPCs decrement the count by 1, successful RPCs increment it by `tokenRatio`. If the `token_count` falls below half of `maxTokens`, retries are paused until the count recovers.
 
-Further, hedging is a complementary feature to retries and can be configured similarly. For more details, see the [hedging guide](https://grpc.io/docs/guides/request-hedging/).
+Further, hedging is a complementary feature to retries and can be configured similarly. For more details, see the [hedging guide]({{< ref "/docs/Guides/RequestHedging" >}}).
 
 ### Retry Observability
 
@@ -121,6 +121,6 @@ Find in-depth metrics and tracing information, along with configuration instruct
 
 - [gRFC for client side retry](https://github.com/grpc/proposal/blob/master/A6-client-retries.md)
 - [gRFC for retry status](https://github.com/grpc/proposal/blob/master/A45-retry-stats.md)
-- [Hedging Guide](https://grpc.io/docs/guides/request-hedging/)
-- [gRPC Service Config](https://grpc.io/docs/guides/service-config)
+- [Hedging Guide]({{< ref "/docs/Guides/RequestHedging" >}})
+- [gRPC Service Config]({{< ref "/docs/Guides/ServiceConfig" >}})
 - [gRFC for Otel metrics](https://github.com/grpc/proposal/blob/master/A66-otel-stats.md)

@@ -18,7 +18,7 @@ An introduction to key gRPC concepts, with an overview of gRPC architecture and 
 
 
 
-Not familiar with gRPC? First read [Introduction to gRPC](https://grpc.io/docs/what-is-grpc/introduction/). For language-specific details, see the quick start, tutorial, and reference documentation for your language of choice.
+Not familiar with gRPC? First read [Introduction to gRPC]({{< ref "/docs/WhatisgRPC/Introduction" >}}). For language-specific details, see the quick start, tutorial, and reference documentation for your language of choice.
 
 {{< youtube "sImWl7JyK_Q">}}
 
@@ -130,7 +130,7 @@ Changes made before a cancellation are not rolled back.
 
 #### Metadata
 
-Metadata is information about a particular RPC call (such as [authentication details](https://grpc.io/docs/guides/auth/)) in the form of a list of key-value pairs, where the keys are strings and the values are typically strings, but can be binary data.
+Metadata is information about a particular RPC call (such as [authentication details]({{< ref "/docs/Guides/Authentication" >}})) in the form of a list of key-value pairs, where the keys are strings and the values are typically strings, but can be binary data.
 
 Keys are case insensitive and consist of ASCII letters, digits, and special characters `-`, `_`, `.` and must not start with `grpc-` (which is reserved for gRPC itself). Binary-valued keys end in `-bin` while ASCII-valued keys do not.
 

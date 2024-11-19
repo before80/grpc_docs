@@ -18,12 +18,12 @@ draft = false
 
 ------
 
-##### [Quick start](https://grpc.io/docs/platforms/android/java/quickstart/)
+##### [Quick start]({{< ref "/docs/Platforms/Android/Java/Quickstart" >}})
 
 This guide gets you started with gRPC in Android Java with a simple working example.
 
-##### [Basics tutorial](https://grpc.io/docs/platforms/android/java/basics/)
+##### [Basics tutorial]({{< ref "/docs/Platforms/Android/Java/Basicstutorial" >}})
 
 A basic tutorial introduction to gRPC in Android Java.
 
-##### [API reference](https://grpc.io/docs/platforms/android/java/api/)
+##### [API reference]({{< ref "/docs/Platforms/Android/Java/API" >}})
