@@ -42,23 +42,23 @@ Many companies are already using gRPC for connecting multiple services in their 
 
 Check out what people are saying below.
 
-[![Square testimonial logo](About_img/square-icon.png)](https://youtu.be/-2sWDr3Z0Wo)
+[![Square testimonial logo](_index_img/square-icon.png)](https://youtu.be/-2sWDr3Z0Wo)
 
 At Square, we have been collaborating with Google so that we can replace all uses of our custom RPC solution to use gRPC. We decided to move to gRPC because of its open support for multiple platforms, the demonstrated performance of the protocol, and the ability to customize and adapt it to our network. Developers at Square are looking forward to being able to take advantage of writing streaming APIs and in the future, push gRPC to the edges of the network for integration with mobile clients and third party APIs.
 
-[![Netflix testimonial logo](About_img/netflix-logo.png)](https://github.com/Netflix/ribbon)
+[![Netflix testimonial logo](_index_img/netflix-logo.png)](https://github.com/Netflix/ribbon)
 
 In our initial use of gRPC we’ve been able to extend it easily to live within our opinionated ecosystem. Further, we’ve had great success making improvements directly to gRPC through pull requests and interactions with Google’s team that manages the project. We expect to see many improvements to developer productivity, and the ability to allow development in non-JVM languages as a result of adopting gRPC.
 
-[![Cockroach Labs testimonial logo](About_img/cockroach-1.png)](https://www.cockroachlabs.com/blog/a-tale-of-two-ports/)
+[![Cockroach Labs testimonial logo](_index_img/cockroach-1.png)](https://www.cockroachlabs.com/blog/a-tale-of-two-ports/)
 
 Our switch from a home-grown RPC system to gRPC was seamless. We quickly took advantage of the per-stream flow control to provide better scheduling of large RPCs over the same connection as small ones.
 
-[![Cisco testimonial logo](About_img/cisco.svg)](https://github.com/CiscoDevNet/grpc-getting-started)
+[![Cisco testimonial logo](_index_img/cisco.svg)](https://github.com/CiscoDevNet/grpc-getting-started)
 
 With support for high performance bi-directional streaming, TLS based security, and a wide variety of programming languages, gRPC is an ideal unified transport protocol for model driven configuration and telemetry.
 
-[![Juniper Networks testimonial logo](About_img/juniperlogo.png)](https://forums.juniper.net/t5/Automation/OpenConfig-and-gRPC-Junos-Telemetry-Interface/ta-p/316090)
+[![Juniper Networks testimonial logo](_index_img/juniperlogo.png)](https://forums.juniper.net/t5/Automation/OpenConfig-and-gRPC-Junos-Telemetry-Interface/ta-p/316090)
 
 The fact that gRPC is built on HTTP/2 transport brings us native bi-directional streaming capabilities and flexible custom-metadata in request headers. The first point is important for large payload-exchange and network-telemetry scenarios, while the latter enables us to expand and include capabilities including but not limited to various network element authentication mechanisms. In addition, the wide language binding support that gRPC/proto3 brings, enables us to provide a flexible and rapid development environment for both internal and external consumers. Last but not least, while there are a number of network communication protocols for configuration, operational state retrieval and network telemetry, gRPC provides us with a unified flexible protocol and transport to ease client/server interaction.
 
